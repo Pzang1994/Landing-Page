@@ -1,5 +1,9 @@
 body{
+    height: 100vh;
+    /* This height thing is EXTREMELY important, apparently. */
     margin: 8px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .space{
@@ -19,6 +23,15 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.content-1{
+    flex: 1;
+    background-color: gray;
+}
+
+.content-2{
+    flex: 1;
 }
 
 .footer{
