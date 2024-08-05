@@ -84,6 +84,7 @@ span{
     align-items: center;
     background-color: black;
     width: 430px;
+    min-height: 100%;
 }
 
 .Ricky{
