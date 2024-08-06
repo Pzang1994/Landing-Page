@@ -1,18 +1,19 @@
 body{
-    height: 100vh;
-    /* This height thing is EXTREMELY important, apparently. */
     margin: 0px;
+    font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .space{
-    padding: 0px 128px;
+    padding: 0px 200px;
+
 }
 
 .header{
     height: 32px;
+    padding-top: 16px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -46,12 +47,12 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    min-height: 488px;
+    box-sizing: border-box;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .paragraph{
@@ -78,7 +79,7 @@ span{
     display: block;
 }
 
-.Ricky-Box{
+.heyayayay{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +88,7 @@ span{
     min-height: 100%;
 }
 
-.Ricky{
+.he-man{
     height: 168px;
     width: auto;
     background-color: #E5E7EB;
@@ -96,15 +97,41 @@ span{
 .two{
     font-size: 36px;
     font-weight: 900;
+    min-height: 488px;
+    box-sizing: border-box;
     color: #1f2937;
 }
 
 .three{
+    min-height: 424px;
+    box-sizing: border-box;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: #E5E7EB;
+}
+
+.Monty{
     font-size: 36px;
     font-weight: 200;
     font-style: italic;
-    color: #1f2937;
-    background-color: #E5E7EB;
+    padding: 0px 135px;
+    text-wrap: wrap;
+    margin: 0px;
+}
+
+.Abraham{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    padding-right: 150px;
+}
+
+.four{
+    min-height: 360px;
+    box-sizing: border-box;
 }
 
 .footer{
